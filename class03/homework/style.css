@@ -1,0 +1,26 @@
+body{
+	background-color: rgb(200,200,200);
+}
+#nav{
+	color:white;
+	background-color: black;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 12px;
+	background-color: #f9613a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:800px;
+	text-align: center;
+
+}
+.blue{
+	color:blue;
+}
+.green{
+	color:green;
+}
+.yellow{
+	color:yellow;
+}
