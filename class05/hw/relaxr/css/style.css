@@ -49,158 +49,165 @@ body {
 }
 
 header {
-  float:left;
   background-color: #033048;
-  padding: 20px;
-  padding-left: 90px;
+  height: 90px;
+  width: 940px;
 }
-h1{
+
+h1 {
   font-weight: 700;
   color: white;
   font-size: 36px;
+  padding-left: 90px; 
+  padding-top: 20px;
+  float: left;
 }
-nav{
-  background-color: #033048;
-  padding: 33px;
+
+nav {
   font-size: 18px;
   text-align: right;
   padding-right: 90px;
+  padding-top: 35px;
 }
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  color: #f9e42e;
-  margin: 0 0 0 40px;
+
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9e42e;
+    margin: 0 0 0 40px; 
+  }
+
+section {
+  background-color: #f0efef;
+  height:1500px;
+  width: 940px;
 }
-h2{
+
+h2 {
   font-size: 32px;
   font-weight: 600;
   line-height: 125%;
-  color:#033048;
+  color: #033048;  
 }
 
-main{
-  background-color: #f0efef;
+main {
   width: 550px;
-  height:1500px;
   padding-top: 50px;
-  padding-left: 90px;
   padding-right: 20px;
-
-  float: left;
-}
-main p{
-  font-size: 20px;
-  line-height: 150%;
-  color: #606161;
-  font-weight: 300;
+  padding-left: 90px;
+  float: left;  
 }
 
-main p::first-letter { 
-    font-size: 300%;
-    color: grey;
+  article p {
+    font-size: 20px;
+    font-weight: 300; 
+    line-height: 150%;
+    color: #606161;
+  }
+
+  article p::first-letter { 
+      font-size: 300%;
+      font-weight: 600;  
+      color: grey;
+  }
+
+  article img {
+    display: block;
+    width: 550px;  
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .read-more {
+    text-align: right;  
+  }
+
+  .read-more a {
+    font-size: 20px;
     font-weight: 600;
-}
+    text-decoration: none;
+    color: #033048;  
+  }
 
-main img{
-  display: block;
-  padding-top:20px;
-  padding-bottom:10px;
-  width: 550px;
-}
-main div{
-  text-align: right;
-}
-main div a{
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  color: #033048;
-
-}
-
-aside{
+aside {
   display: inline-block;
   float: right;
-  background-color: #f0efef;
-  width:280px;
-  height:1550px;
-
+  width: 280px;
 }
 
-aside a{
-  display: block;
-  margin-left: 5px;
-  font-size: 20px;
-  text-decoration: none;
-  color: #033048;
-  font-weight: 300;
-  line-height: 150%;
-}
-aside p a{
-  font-weight: 600;
-  margin:-1px;
-  font-size: 14px;
+  aside a {
+    display: block;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #033048;
+    line-height: 150%;  
+  }
 
-}
-aside p{
-  font-size: 14px;
-  width: 175px;
-  color: #033048;
-}
+  aside p {
+    font-size: 14px;
+    color: #033048;  
+    width: 175px;
+  }
 
-aside img{
-  display: block;
-  padding-top: 50px;
-  width: 175px;
+    aside p a {
+      font-weight: 600;
+      font-size: 14px; 
+      margin: -1px;
+    }
 
-}
+  aside img {
+    display: block;
+    width: 175px; 
+    padding-top: 50px;
+  }
 
-h3{
+h3 {
   font-size: 24px;
-  color:#033048;
   font-weight: 800;
+  color: #033048;
   line-height: 200%;
-  padding-top: 40px;
-
+  padding-top: 40px;  
 }
 
-#signup{
+#signup {
   background-color: #f9e42e;
   height: 100px;
-  clear:both;
-  text-align: center
+  clear: both;
+  text-align: center; 
 }
-button{
-  font-weight: bold;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+
+button {
+  font: bold 14px 'Open Sans', sans-serif;
   color: white;
   background-color: #033048;
   height: 50px;
   width: 250px;
   border: 0px;
-  border-radius: 5px;
-
+  border-radius: 5px; 
 }
-footer{
+
+footer {
   clear: both;
   background-color: #121212;
   height: 250px;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 10px;  
 }
-footer a{
-  margin: 0 20px;
-  line-height: 650%;
-}
-footer div{
-  padding-top: 40px;
-  font-weight: 700;
-  color: #f9e42e;
-  font-size: 36px;
-}
+
+  footer a {
+    margin: 0 20px;
+    line-height: 650%;  
+  }
+
+  footer h4 {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 36px;  
+    color: #f9e42e;
+  }
 
 /******************************************
 /* ADDITIONAL STYLES
