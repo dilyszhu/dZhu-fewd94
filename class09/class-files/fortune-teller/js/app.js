@@ -1,0 +1,47 @@
+// 1. Use document.getElementById() and attach an .onclick event handler to #clickme
+// 2. Assign this event handler to a function named tellFortune
+// 3. The function ellFortune should:
+// - A) store the values from the four inputs (#hometown, #partner, #favNum, #jobTitle) in variables
+// - B) concatenate these variables into the sentence:
+// - "You will be a " + jobTitle + " living in " + hometown + " married to " + partner + " with " + favNum + " kids."
+// - C) output this string to #output
+
+
+// document.getElementById("clickme").onclick = tellFortune;
+
+// function tellFortune () {
+// 	var hometown = document.getElementById("hometown").value;
+// 	var partner = document.getElementById("partner").value;
+// 	var favNum = document.getElementById("favNum").value;
+// 	var jobTitle = document.getElementById("jobTitle").value;
+
+
+//  	document.getElementById("output").innerHTML = "You will be a " + jobTitle + " living in " + hometown + " married to " + partner + " with " + favNum + " kids." ;
+
+
+// }
+
+// 1. Include jQuery using CDN or local (downloaded version)
+// 2. Re-write JS using jQuery:
+// ⇒ Replace document.getElementById() with $() selectors
+// ⇒ Replace .onclick with .click()
+// ⇒ Replace .value with .val
+// ⇒ Replace .innerHTML with .html() or .text()
+
+
+$( document ).ready(function() {
+		console.log("yay")
+
+		$('#clickme').click(tellFortune);
+
+		function tellFortune() {
+			var hometown = $('#hometown').val();
+			var partner = $('#partner').val();
+			var favNum = $('#favNum').val();
+			var jobTitle = $('#jobTitle').val();
+			$('#output').text("You will be a " + jobTitle + " living in " + hometown + " married to " + partner + " with " + favNum + " kids.");
+
+		};
+})
+
+	
