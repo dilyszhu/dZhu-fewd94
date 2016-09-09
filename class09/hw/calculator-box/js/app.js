@@ -13,59 +13,58 @@
 // - .css()
 $( document ).ready(function() {
 
-$('#a10').click=a10;
-$('#a20').click=a20;
-$('#a30').click=a30;
+$('#a10').click(a10);
+$('#a20').click(a20);
+$('#a30').click(a30);
 
-$('#n10').click=n10;
-$('#n20').click=n20;
-$('#n30').click=n30;
+$('#n10').click(n10);
+$('#n20').click(n20);
+$('#n30').click(n30);
 
-$('#out').click=out;
-$('#red').click=red;
-$('#blue').click=blue;
+$('#out').click(out);
+$('#red').click(red);
+$('#blue').click(blue);
 
 var out = $('#out');
-var count = parseInt ($('#out').html);
+var count = parseInt ($('#out').text());
 
 
 function a10(){
 	count+=10;
-  	out.html = count;
-}
+  	out.text(count);
+};
 function a20(){
 	count+=20;
-  	out.html = count;
-}
+  	out.text(count);
+};
 function a30(){
 	count+=30;
-  	out.html = count;
-}
+  	out.text(count);
+};
 function n10(){
 	count-=10;
-  	out.html = count;
-}
+  	out.text(count);
+};
 function n20(){
 	count-=20;
-  	out.html = count;
-}
+  	out.text(count);
+};
 function n30(){
 	count-=30;
-  	out.html = count;
-}
-
+  	out.text(count);
+};
 
 function out(){
 	$('#out').css('background-color', 'white');
 	count=0;
-	out.html = count;
-}
+	out.text(count);
+};
 function red(){
 	$('#out').css('background-color', 'red');
-}
+};
 function blue(){
 	$('#out').css('background-color', 'blue');
-}
+};
 
 
 })
