@@ -1,0 +1,79 @@
+h1 {
+	font-size: 5em;
+	font-family: 'Karla', sans-serif;
+	line-height: 120%;
+	font-weight: bolder;
+	text-transform: uppercase;
+		text-shadow: -1px -1px 0 #fff, 
+	1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+
+h2 {
+	font-size: 4em;
+/*	font-family: 'Bree Serif','Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;*/
+	font-family: 'Karla', sans-serif;
+	line-height: 120%;
+	color: white;
+	font-weight: bold;
+	text-shadow: -1px -1px 0 #dc6597, 
+	1px -1px 0 #dc6597,
+    -1px 1px 0 #dc6597,
+     1px 1px 0 #dc6597;
+
+}
+
+form {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#usermsg {
+    width: 400px;
+    border: 1px solid #dc6597; 
+}
+
+header {
+	height: 150px;
+	width: 100%;
+	background-color: white;
+}
+
+
+#anxiety {
+/*	color: #00946f;
+*/
+font-weight: bold;
+
+text-transform: uppercase;
+font-family: 'Karla', sans-serif;
+color: #dc6597;
+	font-size: 1.5em;
+	text-shadow: -1px -1px 0 #d13576, 
+	1px -1px 0 #d13576,
+    -1px 1px 0 #d13576,
+     1px 1px 0 #d13576
+
+
+}
+
+main {
+	background-color: #f8c7e8;
+	padding: 30px 0;
+	border-top: 1px solid #dc6597; 
+		border-bottom: 1px solid #dc6597; 
+
+
+}
+
+
+.wrapper {
+	  max-width: 500px;
+
+/*	text-align: center;
+*/	margin: 0 auto;
+}

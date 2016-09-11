@@ -1,7 +1,24 @@
 h2 {
-	font-size: 25em;
+	font-size: 15em;
 	font-family: 'Bree Serif','Merriweather', serif;
 	display: inline-block;
+}
+
+#rr {
+	visibility: hidden;
+	z-index: 1;
+	position:absolute;
+top: 0px; left: 0px; 
+color: blue;
+
+}
+#r{
+	z-index: 2;
+position: static;
+
+
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0s;
 }
 
 h3 {

@@ -1,0 +1,20 @@
+h2 {
+	font-size: 25em;
+	font-family: 'Bree Serif','Merriweather', serif;
+	display: inline-block;
+}
+
+form {
+	margin-bottom:25px;
+	margin-left:25px;
+
+}
+
+#usermsg {
+    width:800px;
+    border:1px solid #ACD8F0; }
+
+
+
+
+
