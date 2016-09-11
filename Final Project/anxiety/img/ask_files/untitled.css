@@ -34,9 +34,9 @@ h1 {
 }
 
 header nav {
-	float: right;
+	float: left;
 	padding-top: 30px;
-	padding-right: 25px;
+	padding-left: 30px;
 }
 header ul li {
 	display: inline-block;
@@ -74,8 +74,8 @@ main {
 /*	padding-top: 150px;
 */	
 
-	border-bottom: 1px solid #dc6597; 
-}
+/*	border-bottom: 1px solid #dc6597; 
+*/}
 
 form {
 	padding-top: 25px;
@@ -100,16 +100,16 @@ form {
 }
 
 b {
-	font-weight: 750;
+	font-weight: 800;
 	border-bottom: 2px solid yellow;
 
 }
 
 #examples {
 	padding: 25px;
-/*	background-color: #eefbf6;
-*/	border-bottom: 1px solid #dc6597; 
-}
+	background-color: #eefbf6;
+/*	border-bottom: 1px solid #dc6597; 
+*/}
 
 #examples li {
 	padding-bottom: 10px;
@@ -117,8 +117,8 @@ b {
 }
 
 .wrapper2 {
-	max-width: 800px;
-	margin: 0 auto;
+/*	max-width: 500px;
+*/	margin: 0 auto;
 }
 
 #pics {
@@ -138,9 +138,9 @@ footer {
 	width: 100%;
 	padding-left: 25px;
 	padding-bottom: 10px;
-	/*background-color: black;
-	color: white;*/
-	height: 30px;
+	background-color: black;
+	color: white;
+	height: 50px;
 	padding-top: 20px;
 	font-weight: lighter;
 	font-size: .8em;
