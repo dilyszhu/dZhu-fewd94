@@ -71,6 +71,7 @@ main {
 /*	background-color: #c1ecd8;
 */	
 	padding: 30px 0;
+	text-align: center;
 /*	padding-top: 150px;
 */	
 
@@ -91,7 +92,7 @@ form {
 */	font-weight: bold;
 	text-transform: uppercase;
 /*	color: #dc6597;
-*/	font-size: 1.5em;
+*/	font-size: 1.6em;
 /*	text-shadow: -1px -1px 0 #d13576, 
 	1px -1px 0 #d13576,
     -1px 1px 0 #d13576,
@@ -108,7 +109,8 @@ b {
 #examples {
 	padding: 25px;
 /*	background-color: #eefbf6;
-*/	border-bottom: 1px solid #dc6597; 
+border-bottom: 1px solid #dc6597; 
+*/
 }
 
 #examples li {
@@ -122,8 +124,10 @@ b {
 }
 
 #pics {
+	text-align: center;
 	padding: 25px;
 	border-bottom: 1px solid #dc6597; 
+	border-top: 1px solid #dc6597; 
 
 }
 img {
