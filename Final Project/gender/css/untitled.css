@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'Karla', sans-serif;
-	color: #0b724c;
+	color: #7041a4;
 ;
 
 }
@@ -13,7 +13,7 @@ header {
 /*	background-color: #d4ecd3;
 */	overflow: auto;
 	position: fixed;
-	border-bottom: 1px solid #1cbb81;
+	border-bottom: 1px solid #7041a4;
 /*	border-bottom: 1px solid #dc6597; 
 */
 }
@@ -71,10 +71,10 @@ h2 {
 .your {
 	color: white;
 	display: inline-block;
-	text-shadow: -1px -1px 0 #8e48b6, 
-	1px -1px 0 #8e48b6,
-    -1px 1px 0 #8e48b6,
-     1px 1px 0 #8e48b6;
+	text-shadow: -1px -1px 0 #1cbb81, 
+	1px -1px 0 #1cbb81,
+    -1px 1px 0 #1cbb81,
+     1px 1px 0 #1cbb81;
 }
 .wrapper {
 	max-width: 500px;
@@ -99,7 +99,7 @@ form {
 
 #usermsg {
     width: 400px;
-    border: 1px solid #8e48b6; 
+    border: 1px solid #1cbb81; 
 }
 #anxiety {
 /*	color: #00763a;
@@ -116,7 +116,7 @@ form {
 
 b {
 	font-weight: 750;
-	border-bottom: 2px solid yellow;
+	border-bottom: 2px solid #1cbb81;
 
 }
 
@@ -128,7 +128,7 @@ b {
 #grey {
 /*	background-color:  #ebfbfc;
 */	
-/*	background-color: #eaf7fb;
+/*background-color: #ecfaef;
 */	background-color: #ecfaf5;
 	overflow: auto;
 
@@ -146,7 +146,7 @@ b {
 #pics {
 	text-align: center;
 	padding: 25px;
-	border-bottom: 1px solid #1cbb81; 
+	border-bottom: 1px solid #7041a4; 
 /*	border-top: 1px solid #dc6597; 
 */
 }
@@ -154,7 +154,7 @@ img {
 	width: 200px;
 	display: inline-block;
 	margin: 10px;
-	border: 1px solid #8e48b6;
+	border: 1px solid #1cbb81;
 
 }
 

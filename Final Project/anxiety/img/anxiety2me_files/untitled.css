@@ -1,8 +1,8 @@
 
 body {
 	font-family: 'Karla', sans-serif;
-	color: #0b724c;
-;
+/*	color: #57a694;
+*/;
 
 }
 	
@@ -58,7 +58,7 @@ h2 {
 /*	font-family: 'Bree Serif','Merriweather', serif;
 	font-family: 'Nunito', sans-serif;
 	text-transform: uppercase;*/
-	line-height: 130%;
+	line-height: 120%;
 /*	color: white;
 */	font-weight: bold;
 	/*text-shadow: -1px -1px 0 #dc6597, 
@@ -68,9 +68,8 @@ h2 {
 
 }
 
-.your {
+#your {
 	color: white;
-	display: inline-block;
 	text-shadow: -1px -1px 0 #8e48b6, 
 	1px -1px 0 #8e48b6,
     -1px 1px 0 #8e48b6,
@@ -99,7 +98,7 @@ form {
 
 #usermsg {
     width: 400px;
-    border: 1px solid #8e48b6; 
+    border: 1px solid #1cbb81; 
 }
 #anxiety {
 /*	color: #00763a;
@@ -116,7 +115,7 @@ form {
 
 b {
 	font-weight: 750;
-	border-bottom: 2px solid yellow;
+	border-bottom: 2px solid #8e48b6;
 
 }
 
@@ -128,7 +127,7 @@ b {
 #grey {
 /*	background-color:  #ebfbfc;
 */	
-/*	background-color: #eaf7fb;
+/*background-color: #ecfaef;
 */	background-color: #ecfaf5;
 	overflow: auto;
 

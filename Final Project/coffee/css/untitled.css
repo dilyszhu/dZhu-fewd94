@@ -1,7 +1,6 @@
 
 body {
 	font-family: 'Karla', sans-serif;
-	color: #0b724c;
 ;
 
 }
@@ -54,11 +53,10 @@ header ul li a{
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 5em;
 /*	font-family: 'Bree Serif','Merriweather', serif;
 	font-family: 'Nunito', sans-serif;
 	text-transform: uppercase;*/
-	line-height: 130%;
 /*	color: white;
 */	font-weight: bold;
 	/*text-shadow: -1px -1px 0 #dc6597, 
@@ -67,30 +65,28 @@ h2 {
      1px 1px 0 #dc6597;*/
 
 }
-
+#drink {
+	letter-spacing: 45px;
+}
 .your {
 	color: white;
 	display: inline-block;
-	text-shadow: -1px -1px 0 #8e48b6, 
-	1px -1px 0 #8e48b6,
-    -1px 1px 0 #8e48b6,
-     1px 1px 0 #8e48b6;
+	text-shadow: -1px -1px 0 #faa828, 
+	1px -1px 0 #faa828,
+    -1px 1px 0 #faa828,
+     1px 1px 0 #faa828;
 }
 .wrapper {
-	max-width: 500px;
+	max-width: 450px;
 	margin: 0 auto;
 }
 
 main {
-/*	background-color: #c1ecd8;
-*/	
-	padding: 30px 0;
+	padding: 40px 0;
 	text-align: center;
 /*	padding-top: 150px;
 */	
-
-/*	border-bottom: 1px solid #dc6597; 
-*/}
+}
 
 form {
 	padding-top: 25px;
@@ -98,15 +94,13 @@ form {
 }
 
 #usermsg {
-    width: 400px;
-    border: 1px solid #8e48b6; 
+    width: 350px;
+    border: 1px solid #faa828; 
 }
-#anxiety {
-/*	color: #00763a;
-*/	font-weight: bold;
+#coffee {
+	font-weight: bold;
 	text-transform: uppercase;
-/*	color: #dc6597;
-*/	font-size: 1.6em;
+	font-size: 1.1em;
 /*	text-shadow: -1px -1px 0 #8e48b6, 
 	1px -1px 0 #8e48b6,
     -1px 1px 0 #8e48b6,
@@ -116,7 +110,7 @@ form {
 
 b {
 	font-weight: 750;
-	border-bottom: 2px solid yellow;
+	border-bottom: 2px solid #faa828;
 
 }
 
@@ -128,7 +122,7 @@ b {
 #grey {
 /*	background-color:  #ebfbfc;
 */	
-/*	background-color: #eaf7fb;
+/*background-color: #ecfaef;
 */	background-color: #ecfaf5;
 	overflow: auto;
 
@@ -154,7 +148,7 @@ img {
 	width: 200px;
 	display: inline-block;
 	margin: 10px;
-	border: 1px solid #8e48b6;
+	border: 1px solid #faa828;
 
 }
 
