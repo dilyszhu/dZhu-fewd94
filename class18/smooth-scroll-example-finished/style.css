@@ -1,0 +1,31 @@
+nav{
+	position: fixed;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+	font-size: 36px;
+	color: #FF9900;
+	text-decoration: none;
+}
+
+div{
+	height: 500px;
+}
+
+.first{
+	background-color: #333333;
+}
+
+.second{
+	background-color: #666666;
+}
+
+.third{
+	background-color: #999999;
+}
+
+.fourth{
+	background-color: #BBBBBB;
+}

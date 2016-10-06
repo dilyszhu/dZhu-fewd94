@@ -34,8 +34,8 @@
 <main>
 	<h2 id="ask" class="wrapper">what does <span><div class="your">y</div><div class="your">o</div><div class="your">u</div><div class="your">r </div></span><span id="anxiety">&num;anxiety </span>look like? <span class="gone">to yo</span></h2>
 
-    <form name="message" action="" class="wrapper">
-        <input name="usermsg" type="text" id="usermsg" size="63" />
+    <form name="message" id="comment-form" action="" class="wrapper">
+        <input name="usermsg" type="text" id="comment" size="63" />
         <input name="submitmsg" type="submit"  id="submitmsg" value="Submit" />
     </form>
 
@@ -46,6 +46,8 @@
 <div id="grey">
 <div id="examples" class="wrapper2">
 
+<ul class="comments">
+</ul>
 <ul>
 	<li><b>&commat;carrot: </b>It is a group of invisible monsters pulling you back saying, "Wait! That's scary!" Keeping you from being the person you want to be.</li>
 	<li><b>&commat;broccoli: </b>To be anxious is to be dragged down and boxed in by irrational fear. And when fear is on your mind, you can think of nothing else. It takes over your mind, body, and world.</li>
@@ -78,11 +80,22 @@
 	<p>&copy; 2016 Dilys Zhu</p>
 </footer>
 
-
-
 <!-- DO NOT TOUCH
  -->
-	<script type="text/javascript" src="js/jquery.js"></script>
+<script id="comment-template" type="text/x-handlebars-template">
+  <li data-id="{{commentId}}">
+    <span>{{likes}}</span>
+    <p>{{comment}}</p>
+    <i class="fa fa-trash delete"></i>
+    <i class="fa fa-heart-o like"></i>
+  </li>
+</script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="js/handlebars-v4.0.5.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+
 	<script type="text/javascript" src="js/untitled.js"></script>
 
 </body>

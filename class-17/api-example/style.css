@@ -1,0 +1,34 @@
+body{
+	background-color: #421200;
+	color: #EFECCA;
+	text-align: center;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container{
+	margin: 0 auto;
+	width: 30%;
+	padding: 20px;
+	background-color: #8F2C1B;
+	border: solid 10px #A7A37E;
+}
+
+#title{
+	margin: 10px;
+}
+
+#title_output{
+	color: #D1CD9F;
+	text-shadow: 2px 2px 2px black;
+	font-family: 'Molle', cursive;
+	font-size: 48px;
+}
+
+#starring_output{
+	color: #000000;
+}
+
+img{
+	box-shadow: 5px 5px 5px black;
+}
