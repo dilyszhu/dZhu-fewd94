@@ -4,18 +4,40 @@
 	<link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
-
-	<img src="images/chicken-nose.png" alt="">
-	<img src="images/ghostly-zoots.png" alt="">
-	<img src="images/lil-mib.png" alt="">
-	<img src="images/loopy-lou.png" alt="">
-	<img src="images/mr-purple.png" alt="">
-	<img src="images/patrick-carney.png" alt="">
-	<img src="images/shaka-khan.png" alt="">
-	<img src="images/zoots.png" alt="">
+	<a href="images/chicken-nose.png" data-lightbox="mylightbox" >
+		<img src="images/chicken-nose.png" alt="">
+	</a>
+	<a href="images/ghostly-zoots.png" data-lightbox="mylightbox2">
+		<img src="images/ghostly-zoots.png" alt="">
+	</a>
+	<a href="images/lil-mib.png" data-lightbox="mylightbox">
+		<img src="images/lil-mib.png" alt="">
+	</a>
+	<a href="images/loopy-lou.png" data-lightbox="mylightbox">
+		<img src="images/loopy-lou.png" alt="">
+	</a>
+	<a href="images/mr-purple.png" data-lightbox="mylightbox">
+		<img src="images/mr-purple.png" alt="">
+	</a>
+	<a href="images/patrick-carney.png" data-lightbox="mylightbox">
+		<img src="images/patrick-carney.png" alt="">
+	</a>
+	<a href="images/shaka-khan.png" data-lightbox="mylightbox">
+		<img src="images/shaka-khan.png" alt="">
+	</a>
+	<a href="images/zoots.png" data-lightbox="mylightbox">
+		<img src="images/zoots.png" alt="">
+	</a>
 
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+	    lightbox.option({
+	      'resizeDuration': 200,
+	      'wrapAround': true,
+
+	    })
+	</script>
 </body>
 </html>
